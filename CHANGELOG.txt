@@ -1,0 +1,38 @@
+[v0.0.1 - Aug, 25, 2021]
+
+# Breaking changes #
+> Added `magic.Color`
+  > `.black`
+  > `.red`
+  > `.green`
+  > `.yellow`
+  > `.blue`
+  > `.magenta`
+  > `.cyan`
+  > `.white`
+  > `.reset`
+> Added `magic.Style`
+  > `.default`
+  > `.bright`
+  > `.underlined`
+  > `.blinking`
+  > `.fixed_color`
+> Added `magic.Highlight`
+  > '.black`
+  > '.red`
+  > '.green`
+  > '.yellow`
+  > '.blue`
+  > '.magenta`
+  > '.cyan`
+  > '.white`
+> Added `magic.Print`
+  > '.text(...)'
+  > '.type(...)'
+> Added `magic.Get`
+  > '.colored_text(...)'
+  > '.layout(...)'
+
+# Fixes
+
+[...]
