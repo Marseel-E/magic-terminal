@@ -97,4 +97,4 @@ layout = Get.layout(
 print(layout + "This is a test for layout" + Color.reset)
 ```
 
-> **Output: <mark style="background-color:green; color:red; text-decoration: underline">This is a test for layout**
+> **Output: <mark style="background-color:green; color:red; text-decoration: underline">This is a test for layout</mark>**
