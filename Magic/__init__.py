@@ -1,1 +1,1 @@
-import Magic
+from Magic import *
