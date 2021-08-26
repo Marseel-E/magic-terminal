@@ -99,4 +99,4 @@ print(layout + "This is a test for layout" + Color.reset)
 
 > **Output: <mark style="background-color:green; color:red; text-decoration: underline">This is a test for layout**
 
-<span style="color: grey;">Magic by Marseel Eeso © 2021</span>
+<span style="color: grey;">
