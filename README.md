@@ -1,4 +1,4 @@
-# Bored of your terminal? Try some :magic_wand: **Magic**
+# Bored of your terminal? Try some :mage_man: **Magic**
 
 > ## What is **Magic** ?
 >
