@@ -12,7 +12,7 @@ setup(
     name = 'Magic',
     version = '0.0.1',
     description = "A fun & friendly way to display text in your terminal",
-    long_description = open('README.txt').read() + '\n\n' + open('CHANGELOGS.txt').read(),
+    long_description = open('README.md').read() + '\n\n' + open('CHANGELOGS.txt').read(),
     url = '',
     author = 'Marseel Eeso',
     author_email = 'marseeleeso@gmail.com',
