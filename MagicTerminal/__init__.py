@@ -1,1 +1,0 @@
-from .magic import Style, Color, Highlight, Magic
