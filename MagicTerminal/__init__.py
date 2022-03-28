@@ -95,4 +95,4 @@ class Magic:
 			set: Color.white,
 		}
 
-	   self.print(value, None, color[type(value)])
+	   cls.print(value, None, color[type(value)])
