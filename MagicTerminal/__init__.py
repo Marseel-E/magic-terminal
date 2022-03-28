@@ -38,8 +38,8 @@ class Magic:
 	def __init__(self) -> None: pass
 
 
-	@classmsthod
-	def styalize(cls, text: str, style: Optional[Style] = Style.default, color: Optional[Color] = None, highlight: Optional[Highlight] = None) -> str:
+	@staticmsthod
+	def styalize(text: str, style: Optional[Style] = Style.default, color: Optional[Color] = None, highlight: Optional[Highlight] = None) -> str:
 		""" Returns a styled text.
 
 		Parameters:
