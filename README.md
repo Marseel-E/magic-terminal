@@ -1,9 +1,6 @@
 # :art: magic-terminal
 A fun way to customize your terminal with colors, styles etc...
 
-## 📜 License
-Free to use for development, production, or any other purpose. (MIT)
-
 ### Install
 ```bash
 py -m pip install -U magic-terminal
@@ -35,3 +32,5 @@ Magic.typed_print(420)
 
 # >>> 420
 ```
+
+### 📜 [License](LICENSE)
