@@ -2,8 +2,11 @@
 A fun way to customize your terminal with colors, styles etc...
 
 ### Install
-```bash
+```cmd
 py -m pip install -U magic-terminal
+
+:: for latest/unstable
+py -m pip install -U git+https://github.com/Marseel-E/magic-terminal
 ```
 ### Import
 ```py
