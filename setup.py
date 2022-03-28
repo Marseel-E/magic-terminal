@@ -6,7 +6,7 @@ with open("README.md", 'r', encoding="utf-8") as fh:
 
 setuptools.setup(
     name="magic-terminal",
-    version="1.0.0",
+    version="1.5.0",
     author="Marseel Eeso",
     author_email="marseeleeso@gmail.com",
     description="A fun way to customize your terminal with colors, styles etc...",
@@ -22,6 +22,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "MagicTerminal"},
-    packages=setuptools.find_packages(where="src"),
+    packages=setuptools.find_packages(where="MagicTerminal"),
     python_requires=">=3.8",
 )
