@@ -35,7 +35,7 @@ class Highlight(TypedDict):
 
 
 class _Magic:
-	def __init__(self): pass
+	def __init__(self) -> None: pass
 
 
 	def styalize(self, text: str, style: Optional[Style] = Style.default, color: Optional[Color] = None, highlight: Optional[Highlight] = None) -> str:
