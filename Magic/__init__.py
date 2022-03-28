@@ -1,1 +1,0 @@
-from Magic import *
