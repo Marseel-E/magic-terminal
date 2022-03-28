@@ -34,11 +34,12 @@ class Highlight(TypedDict):
 	white: str = '47'
 
 
-class _Magic:
+class Magic:
 	def __init__(self) -> None: pass
 
 
-	def styalize(self, text: str, style: Optional[Style] = Style.default, color: Optional[Color] = None, highlight: Optional[Highlight] = None) -> str:
+	@classmsthod
+	def styalize(cls, text: str, style: Optional[Style] = Style.default, color: Optional[Color] = None, highlight: Optional[Highlight] = None) -> str:
 		""" Returns a styled text.
 
 		Parameters:
@@ -55,7 +56,8 @@ class _Magic:
 		return '\033[' + style + color + highlight + text + Color.reset
 
 
-	def print(self, text: str, style: Optional[Style] = Style.default, color: Optional[Color] = None, highlight: Optional[Highlight] = None, start_new_line: Optional[bool] = False, end_new_line: Optional[bool] = False) -> None:
+	@classmsthod
+	def print(cls, text: str, style: Optional[Style] = Style.default, color: Optional[Color] = None, highlight: Optional[Highlight] = None, start_new_line: Optional[bool] = False, end_new_line: Optional[bool] = False) -> None:
 		''' Prints the text with the desired style.
 
 		Parameters:
@@ -73,7 +75,8 @@ class _Magic:
 		print('\n' if (start_new_line) else '' + self.styalize(text, style, color, highlight) + '\n' if (end_new_line) else '')
 
 
-	def typed_print(self, value) -> None:
+	@classmsthod
+	def typed_print(cls, value) -> None:
 		''' Syalizes & prints the value based on its type.
 
 		Parameters:
@@ -93,5 +96,3 @@ class _Magic:
 		}
 
 	   self.print(value, None, color[type(value)])
-
-Magic = _Magic()
