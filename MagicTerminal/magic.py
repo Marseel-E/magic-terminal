@@ -1,5 +1,8 @@
-from typing import TypedDict, Optional
+__all__ = ['Magic', '_Magic', 'Color', 'Style', 'Highlight']
+
 import os
+
+from typing import TypedDict, Optional
 
 
 class Style(TypedDict):
