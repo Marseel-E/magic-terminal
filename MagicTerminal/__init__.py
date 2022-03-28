@@ -72,7 +72,7 @@ class Magic:
 		'''
 		
 		os.system('')
-		print('\n' if (start_new_line) else '' + self.styalize(text, style, color, highlight) + '\n' if (end_new_line) else '')
+		print('\n' if (start_new_line) else '' + cls.styalize(text, style, color, highlight) + '\n' if (end_new_line) else '')
 
 
 	@classmsthod
