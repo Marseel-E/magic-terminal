@@ -1,4 +1,4 @@
-# :art: magic-terminal
+# :art: magic-terminal (UNMAINTAINED)
 A fun way to customize your terminal with colors, styles etc...
 
 ### Install
